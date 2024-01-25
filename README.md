@@ -4,7 +4,9 @@
 
 
 
-## My Setup : 
+# Setup : 
+
+## My devices : 
 
 ### ⌨ Keybord : 
   - [Ironclad V3](https://designedby.gg/product/ironclad-v3/)
@@ -18,3 +20,4 @@
 ### 🖥 2nd Monitor :
  - [Jonsbo D31 Mesh Screen](https://www.jonsbo.com/en/products/D31meshfupingbanBlack.html)
 
+## My PC :
