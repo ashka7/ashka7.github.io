@@ -12,4 +12,7 @@
 ### 🖱 Mouse : 
   - [Razer Viper Ultimate](https://www.razer.com/gaming-mice/razer-viper-ultimate)
 
+### 🖥 1rst Monitor : 
+ - [Acer Nitro XV253QPbmiiprzx](https://www.ldlc.com/fiche/PB00447613.html)
+
 
