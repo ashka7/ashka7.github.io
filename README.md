@@ -21,3 +21,11 @@
  - [Jonsbo D31 Mesh Screen](https://www.jonsbo.com/en/products/D31meshfupingbanBlack.html)
 
 ## My PC :
+
+### Graphic Card (MASTERPIECE) : 
+ - [Nvidia RTX 3080 GIGABYTE Vison](https://www.gigabyte.com/fr/Graphics-Card/GV-N3080VISION-OC-10GD-rev-10#kf)
+
+### Processor : 
+ - [AMD Ryzen 7 3700X](https://www.ldlc.com/fiche/PB00273565.html)
+
+### 
