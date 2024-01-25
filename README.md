@@ -15,4 +15,6 @@
 ### 🖥 1rst Monitor : 
  - [Acer Nitro XV253QPbmiiprzx](https://www.ldlc.com/fiche/PB00447613.html)
 
+### 🖥 2nd Monitor :
+ - [Jonsbo D31 Mesh Screen](https://www.jonsbo.com/en/products/D31meshfupingbanBlack.html)
 
