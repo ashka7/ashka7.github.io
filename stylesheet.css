@@ -1,1 +1,11 @@
-p {font-size: 24px;}
+h1 {
+	font-size: 70px;
+	margin: ;
+}
+
+body {
+	text-align: center;
+	font-family: Poppins,sans-serif;
+	color: #000;
+	background-color: #E8E8E8;
+}
