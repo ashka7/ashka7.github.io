@@ -82,17 +82,16 @@ header {
 
 @media screen and (max-width: 810px) {
 	
+	.navbar {
+		padding: 0;
+	}
+
 	.navbar .logo {
 	position: absolute;
 	top: 30px;
 	left: 30px;
 
 }
-
-	.navbar {
-		padding: 0;
-	}
-
 	.navbar .menu-hamburger {
 		display: block;
 	}
