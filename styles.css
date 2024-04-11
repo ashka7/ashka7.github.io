@@ -51,24 +51,7 @@ header {
 	display: flex;
 }
 
-.text-title {
-	position: absolute;
-	 left: 50%;
- transform: translate(-50%,0);
- 	color: white;
- 	padding-top: 300px;
- 	font-size: 60pt;
 
-}
-
-.text {
-	position: absolute;
-	 left: 50%;
- transform: translate(-50%,0);
- 	color: white;
- 	margin-top: 410px;
- 	font-size: 20pt;
-}
 
 .navbar .menu-hamburger {
 	display: none;
@@ -78,20 +61,59 @@ header {
 	right: 30px;
 }
 
+.text-title {
+	color: white;
+	  position: absolute;
+  left: 50%;
+  margin-top: 40%;
+  transform: translate(-50%, -40%);
+  font-size: 4em;
+  width: 600px;
+}
+
+.text {
+	color: white;
+	  position: absolute;
+  margin-top: 47%;
+  left: 50%;
+  transform: translate(-50%, -47%);
+  font-size: 1.5em;
+}
 
 
-@media screen and (max-width: 810px) {
+
+@media screen and (max-width: 820px) {
 	
-	.navbar {
-		padding: 0;
-	}
-
 	.navbar .logo {
 	position: absolute;
 	top: 30px;
 	left: 30px;
 
 }
+	.text-title {
+		color: white;
+	  position: absolute;
+  left: 50%;
+  margin-top: 170%;
+  transform: translate(-50%, -40%);
+		font-size: 2em;
+		width: 300px;
+	}
+
+	.text {
+		color: white;
+	  position: absolute;
+  left: 50%;
+  margin-top: 190%;
+  transform: translate(-50%, -46%);
+		font-size: 1em;
+		width: 180px;
+	}
+
+	.navbar {
+		padding: 0;
+	}
+
 	.navbar .menu-hamburger {
 		display: block;
 	}
@@ -126,5 +148,7 @@ header {
 		margin: 25px 0;
 		font-size: 1.2em;
 	}
-}
 
+	
+
+}
