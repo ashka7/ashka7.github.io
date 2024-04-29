@@ -12,8 +12,9 @@ body {
 header {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("../images/snowy-mount-everest-art-desktop-wallpaper.jpg");
+	background-image: url(snowy-mount-everest-art-desktop-wallpaper.jpg);
 	background-size: cover;
+	background-position: center;
 }
 
 .navbar {
@@ -30,6 +31,23 @@ header {
 
 .navbar a {
 	color: white;
+	font-size: 17.5px;
+	position: relative;
+}
+
+.navbar a:not(.logo)::before {
+  content: ''; 
+  position: absolute; 
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px; 
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.navbar a:hover:not(.logo)::before{
+	width: 100%;
 }
 
 .navbar .logo {
@@ -61,23 +79,38 @@ header {
 	right: 30px;
 }
 
+.container-title {
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 42%;
+	transform: translate(-50%, -42%);
+	justify-content: center;
+	align-items: center;
+}
+
 .text-title {
+	font-size: 4em;
 	color: white;
-	  position: absolute;
-  left: 50%;
-  margin-top: 40%;
-  transform: translate(-50%, -40%);
-  font-size: 4em;
-  width: 600px;
+}
+
+.container-text-title {
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 51%;
+	transform: translate(-50%, -51%);
+	justify-content: center;
+	align-items: center;
 }
 
 .text {
+	font-size: 1.5em;
 	color: white;
-	  position: absolute;
-  margin-top: 47%;
-  left: 50%;
-  transform: translate(-50%, -47%);
-  font-size: 1.5em;
 }
 
 
@@ -90,25 +123,38 @@ header {
 	left: 30px;
 
 }
-	.text-title {
-		color: white;
-	  position: absolute;
-  left: 50%;
-  margin-top: 170%;
-  transform: translate(-50%, -40%);
-		font-size: 2em;
-		width: 300px;
-	}
+.container-title {
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 42%;
+	transform: translate(-50%, -42%);
+	justify-content: center;
+	align-items: center;
+}
 
-	.text {
-		color: white;
-	  position: absolute;
-  left: 50%;
-  margin-top: 190%;
-  transform: translate(-50%, -46%);
-		font-size: 1em;
-		width: 180px;
-	}
+.text-title {
+	font-size: 2.1em;
+	color: white;
+}
+	.container-text-title {
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 48%;
+	transform: translate(-50%, -48%);
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	font-size: 1.2em;
+	color: white;
+}
 
 	.navbar {
 		padding: 0;
