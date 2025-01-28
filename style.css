@@ -167,10 +167,5 @@ span{
     transform: scale(1.3) translateY(-5px);
     color: #AAB99A;
     background-color: #657066;
-    box-shadow: 0 0 25px #65706;
-}
-
-.social-icons{
-    justify-content:;
-    margin: 
+    box-shadow: 0 0 25px #657066;
 }
