@@ -25,7 +25,6 @@ body{
 
 header{
     position: fixed;
-    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -54,13 +53,14 @@ header{
 
 nav a{
     font-size: 1.8rem;
+    background: none;
     color: #657066;
     margin-left: 4rem;
     font-weight: 500;
+    transition: 0.2s ease;
     display: inline-block;
     position: relative;
     padding: 5px;
-
 }
 
 nav a::before{
@@ -78,12 +78,27 @@ nav a:hover::before{
     width: 100%
 }
 
-
 nav{
     padding-top: 5px;
     overflow: hidden;
 }
 
+.active1{
+    margin-right: 1rem;
+}
+
+@keyframes gradientanimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}
+
+nav{
+    overflow: hidden;
+}
 .home{
     display: flex;
     justify-content: center;
